@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.base {
+    width: 1000px;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cube {
+    width: 300px;
+    height: 350px;
+    border: black solid 2px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.head{
+    margin-top: 10px;
+}
+
+.head, .txt, .learn_block {
+    font-family: Montserrat, serif;
+    font-size: 22px;
+    text-align: center;
+}
+
+.txt {
+    font-size: 20px;
+}
+
+.learn_block {
+    font-size: 20px;
+    border: black solid 1px;
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    background: white;
+
+    border-radius: 50%;
+    border: black solid 2px;
+    margin-bottom: 400px;
+
+
+    position: absolute;
+}
+
+.fa-face-smile{
+    font-size: 40px;
+    margin-left:calc(50% - 20px);
+    margin-top: calc(50% - 20px);
+
+}
